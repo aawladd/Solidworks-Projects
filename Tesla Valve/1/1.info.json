@@ -1,0 +1,78 @@
+{
+    "version": 0,
+    "model_name": "Simulation.SLDPRT",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\mdawl\\OneDrive\\Desktop\\Test\\Tesla Valve\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 39178,
+        "cells_fluid": 39178,
+        "cells_solid": 43653,
+        "cells_fluid_containing_solid": 20415
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "03:34:40+0600",
+        "prepare_geometry_total_time": 4,
+        "cpu_time_solver_total": 108,
+        "iteration": 180,
+        "travel": 2.6498935232213925,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "03:36:22+0600",
+        "cpu_time_per_last_iter": 2,
+        "cpu_time_left": 8,
+        "iterations_per_travel": 68
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Average Static Pressure 1",
+                "unit": "pressure and stress",
+                "value": 323774585461.2306,
+                "progress": 100.0,
+                "criteria": 7372324191.131519,
+                "delta": 1591560926.9641724,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Average Velocity 1",
+                "unit": "speed and velocity",
+                "value": 6624.103623546123,
+                "progress": 100.0,
+                "criteria": 38.07286252588986,
+                "delta": 37.7699568213593,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Water"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1",
+        "cad_version": "SOLIDWORKS 2022 SP1.0",
+        "computer_name": "AWLAD-DESKTOP",
+        "user_name": "mdawl",
+        "os": "Windows 10 (or higher) (Version 10.0.22000)",
+        "cpu": "AMD Ryzen 5 3500X 6-Core Processor             ",
+        "number_of_cores": 6,
+        "memory_avail": 8575,
+        "memory_total": 16314
+    }
+}

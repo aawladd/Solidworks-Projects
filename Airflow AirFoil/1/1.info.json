@@ -1,0 +1,55 @@
+{
+    "version": 0,
+    "model_name": "Airfoil Model.SLDPRT",
+    "project_name": "Flow Simulation",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\mdawl\\OneDrive\\Desktop\\Test\\Airflow AirFoil\\1\\1.xmlconfig",
+    "finished": false,
+    "mesh": {
+        "cells_total": 26434,
+        "cells_fluid": 26434,
+        "cells_solid": 466,
+        "cells_fluid_containing_solid": 544
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "19:57:25+0600",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 4,
+        "iteration": 14,
+        "travel": 0.09408741424096621,
+        "phys_time": 1.3830787397651876,
+        "time_step": 0.3830787397651875,
+        "last_iteration_finished": "19:57:28+0600",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 26,
+        "iterations_per_travel": 148
+    },
+    "goals": [],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": true,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1",
+        "cad_version": "SOLIDWORKS 2022 SP1.0",
+        "computer_name": "AWLAD-DESKTOP",
+        "user_name": "mdawl",
+        "os": "Windows 10 (or higher) (Version 10.0.22000)",
+        "cpu": "AMD Ryzen 5 3500X 6-Core Processor             ",
+        "number_of_cores": 6,
+        "memory_avail": 8188,
+        "memory_total": 16314
+    }
+}
